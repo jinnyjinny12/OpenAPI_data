@@ -33,5 +33,9 @@ out/
 /nbdist/
 /.nb-gradle/
 
+# ResponseDTO 파일 무시
+src/main/java/com/ohgiraffers/dataexample/ResponseDTO.java
+
+
 ### VS Code ###
 .vscode/
