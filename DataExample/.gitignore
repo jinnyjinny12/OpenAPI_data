@@ -35,6 +35,8 @@ out/
 
 # Controller 파일 무시
 src/main/java/com/ohgiraffers/dataexample/Controller.java
+# application.properties 파일 무시
+src/main/resources/application.properties
 
 
 ### VS Code ###

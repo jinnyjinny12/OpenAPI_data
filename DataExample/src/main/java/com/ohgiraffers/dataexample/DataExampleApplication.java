@@ -14,10 +14,6 @@ public class DataExampleApplication {
     }
 
 
-    @Bean
-    public RestTemplate restTemplate() {
-        return new RestTemplate();
-    }
 
 
 }
