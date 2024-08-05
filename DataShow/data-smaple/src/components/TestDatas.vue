@@ -18,6 +18,8 @@
 import axios from 'axios';
 
 export default {
+
+  // testDates 를 비우기 위해 초기화시킴
   data() {
     return {
       testDates: []
@@ -26,17 +28,19 @@ export default {
   mounted() {
     this.fetchTestDates();
   },
-  methods: {
+  methods: { 
+    // 서버에 get 요청을 보냄
+    // seriesCd 라는 파라미터 포함
+
     fetchTestDates() {
-      axios.get('/service/rest/InquiryTestDatesNationalProfessionalQualificationSVC/getList', {
+      axios.get('/api/data', {
         params: {
-          seriesCd: 'yourSeriesCdValue',
-          ServiceKey: 'R%2B495AT%2BHZNdQ9n0YuGnSAnZ0ljQXH1R4sW9GZeVF5ni7QYn%2BMf8aP%2Frv%2BjrfqqsA2L26l6Asr4uBam76oBQ6Q%3D%3D'
+          seriesCd: '21' // 테스트
         }
-      })
+      }) // 성공하면 응답 데이터 처리
       .then(response => {
-        this.testDates = response.data;  // JSON 구조에 맞게 조정 필요
-        console.log(response.data);
+        this.testDates = response.data.response.body.items.item;  // JSON 구조에 맞게 조정 필요
+        
       })
       .catch(error => {
         console.error('Error fetching data:', error);
