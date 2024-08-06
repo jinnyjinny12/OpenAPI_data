@@ -1,7 +1,7 @@
 
 <template>
 
-  <TestDatas />
+ <ApiJobData />
 
 
 
@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import ApiData from './components/ApiData.vue';
+import ApiJobData from './components/ApiData.vue';
 import TestDatas from './components/TestDatas.vue';
 
 
@@ -17,11 +17,20 @@ export default {
   name: 'App',
   components: {
   
-    TestDatas
+    ApiJobData
   }
 }
 
 </script>
-<style scoped>
+<style>
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+
 
 </style>
