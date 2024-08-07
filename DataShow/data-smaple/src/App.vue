@@ -4,19 +4,14 @@
  <ApiJobData />
 
 
-
-
 </template>
 
 <script>
-import ApiJobData from './components/ApiData.vue';
-import TestDatas from './components/TestDatas.vue';
-
+import ApiJobData from './components/ApiJobData.vue';
 
 export default {
   name: 'App',
   components: {
-  
     ApiJobData
   }
 }
@@ -30,7 +25,6 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-
 
 
 </style>
