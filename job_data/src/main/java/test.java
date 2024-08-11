@@ -10,7 +10,7 @@ public class test {
     public static void main(String[] args) throws IOException {
         StringBuilder urlBuilder = new StringBuilder("http://openapi.seoul.go.kr:8088");
         /*URL*/
-        urlBuilder.append("/" + URLEncoder.encode ("614874514773656f37385772796b4b","UTF-8") ); /*인증키
+        urlBuilder.append("/" + URLEncoder.encode (,"UTF-8") ); /*인증키
 (sample사용시에는 호출시 제한됩니다.)*/
         urlBuilder.append("/" + URLEncoder.encode ("xml","UTF-8") ); /*요청파일타입
 (xml,xmlf,xls,json) */
