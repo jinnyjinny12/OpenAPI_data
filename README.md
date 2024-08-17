@@ -31,11 +31,10 @@
 </p>
 
 
-## Key Features
+## OPENAPI
 
-* LivePreview - Make changes, See changes
-  - Instantly see what your Markdown documents look like in HTML as you create them.
-* Sync Scrolling
+* 서울시 공공데이터 일자리 채용정보 받아오기.
+* API 토인을 통해 프론트에 보여주기
   - While you type, LivePreview will automatically scroll to the current location you're editing.
 * GitHub Flavored Markdown  
 * Syntax highlighting
