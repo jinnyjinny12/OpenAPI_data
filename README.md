@@ -34,21 +34,9 @@
 ## OPENAPI
 
 * 서울시 공공데이터 일자리 채용정보 받아오기.
-* API 토인을 통해 프론트에 보여주기
-  - While you type, LivePreview will automatically scroll to the current location you're editing.
-* GitHub Flavored Markdown  
-* Syntax highlighting
-* [KaTeX](https://khan.github.io/KaTeX/) Support
-* Dark/Light mode
-* Toolbar for basic Markdown formatting
-* Supports multiple cursors
-* Save the Markdown preview as PDF
-* Emoji support in preview :tada:
-* App will keep alive in tray for quick usage
-* Full screen mode
-  - Write distraction free.
-* Cross platform
-  - Windows, macOS and Linux ready.
+* API 인증키로 데이터를 받아오고 그 데이터를 MVC 패턴을 통해 DB에 저장한다. 
+* 데이터를 파싱해서 프론트에 보여준다.
+* 인증키를 yml 을 통해 작성해 깃허브에 공개적으로 올리지 않는다. 
 
 ## How To Use
 
